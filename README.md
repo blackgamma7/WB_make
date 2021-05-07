@@ -3,7 +3,7 @@ A whiteboxing python Script for Autodesk Maya made in my college years.
 ## how to install
 create a shelf button with the python commands
 ~~~
-import WB_Make_VA1_5 as WB_Make
+import WB_Make
 WB_Make.MakeWin()
 ~~~
 ## what it does
