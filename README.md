@@ -12,6 +12,6 @@ Quickly creates a whitebox primitive to whatever real-world measurements you hav
 I wanted to give the project a personality. I added a toggle if you don't.
 ## for the record
 Maya 2016's Python Interpreter is awful for debugging. "syntax error on line 1" can mean one of the following things:
-*there is an error with indentation somewhere in your code
-*there is a typo somewhere in your code
-*¯\_(ツ)_/¯ IDK,LOL.
+- there is an error with indentation somewhere in your code
+- there is a typo somewhere in your code
+- ¯\\_(ツ)_/¯ IDK,LOL.
