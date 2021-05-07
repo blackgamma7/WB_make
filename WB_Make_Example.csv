@@ -1,0 +1,16 @@
+#Here is an example file on how to make a CSV compatible with WB_make.
+#R/D/C (if the measurment is based on radius diameter or circumference. assumes radius if blank)
+#Name,Type,UnitScale,Number,Number,Number,Number,Number,Number,Number....
+#exCup,Cup,cm,height,radius,thickness,R/D/C
+#exCube,cube,cm,height,width,depth
+#exBin,cube,cm,height,width,depth,thickness
+#exCyl,Cylinder,cm,height,radius,R/D/C
+#exShelf,shelf,cm,TeirHeight,Width,Depth,TeirNumber,TeirDistance,TeirClearance,LegThickness,LegEdge
+#exStairs,stair,cm,StepHeight,StepWidth,StepDepth,StepNumber,Isfloating
+#exCurve,curve,cm,thickness(0 for Solid),(relative: 0 for bottom. 1 for last),R/D/C,(list of alternating measurements of height and curve. start @ 0)
+inchcube,cube,in,1,1,1
+meterhighCylinder,Cylinder,m,1,.25
+Icup,cup,cm,20,10,1
+shelftest,shelf,cm,4,20,30,2,20,10,3,1
+stairtest,stairs,m,.2,.5,.4,10,True
+testBottle,curve,cm,.25,1,c,0,10,2,14,8,7,2,7
